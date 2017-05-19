@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../proiectUARTNexys4DDR.srcs/sources_1/imports/new/rx_fsm.vhd"
+vhdl xil_defaultlib  "../../../proiectUARTNexys4DDR.srcs/sim_1/new/rx_fsm_tb.vhd"
+
+# Do not sort compile order
+nosort

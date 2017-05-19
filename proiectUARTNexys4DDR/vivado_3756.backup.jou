@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu May 18 16:04:23 2017
+# Process ID: 3756
+# Current directory: C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5828 C:\Users\Szabi\Documents\Vivado\proiectUARTNexys4DDR\proiectUARTNexys4DDR.xpr
+# Log file: C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR/vivado.log
+# Journal file: C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR/proiectUARTNexys4DDR.xpr
+import_files -norecurse {C:/Users/Szabi/Documents/Vivado/I2C_Controller/I2C_Controller/I2C_Controller.srcs/sources_1/new/I2C_Master.vhd C:/Users/Szabi/Documents/Vivado/I2C_Controller/I2C_Controller/I2C_Controller.srcs/sources_1/new/I2C_Controller.vhd}
+set_property strategy Flow_RuntimeOptimized [get_runs synth_1]
+set_property strategy Flow_RuntimeOptimized [get_runs impl_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR/proiectUARTNexys4DDR.runs/impl_1/main_unit.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR/proiectUARTNexys4DDR.runs/impl_1/main_unit.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

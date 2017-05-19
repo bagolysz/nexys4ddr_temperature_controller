@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue May 16 19:43:50 2017
+# Process ID: 3460
+# Current directory: C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8144 C:\Users\Szabi\Documents\Vivado\proiectUARTNexys4DDR\proiectUARTNexys4DDR.xpr
+# Log file: C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR/vivado.log
+# Journal file: C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR/proiectUARTNexys4DDR.xpr

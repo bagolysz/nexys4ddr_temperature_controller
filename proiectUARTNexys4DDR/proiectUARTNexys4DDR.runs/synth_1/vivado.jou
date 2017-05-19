@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri May 19 10:55:22 2017
+# Process ID: 4132
+# Current directory: C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR/proiectUARTNexys4DDR.runs/synth_1
+# Command line: vivado.exe -log main_unit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_unit.tcl
+# Log file: C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR/proiectUARTNexys4DDR.runs/synth_1/main_unit.vds
+# Journal file: C:/Users/Szabi/Documents/Vivado/proiectUARTNexys4DDR/proiectUARTNexys4DDR.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main_unit.tcl -notrace

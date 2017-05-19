@@ -1,0 +1,9 @@
+C:\Users\Szabi\Documents\Vivado\ProjectUARTControl\ProjectUARTControl\bin\Debug\ProjectUARTControl.exe.config
+C:\Users\Szabi\Documents\Vivado\ProjectUARTControl\ProjectUARTControl\bin\Debug\ProjectUARTControl.exe
+C:\Users\Szabi\Documents\Vivado\ProjectUARTControl\ProjectUARTControl\bin\Debug\ProjectUARTControl.pdb
+C:\Users\Szabi\Documents\Vivado\ProjectUARTControl\ProjectUARTControl\obj\Debug\ProjectUARTControl.csprojResolveAssemblyReference.cache
+C:\Users\Szabi\Documents\Vivado\ProjectUARTControl\ProjectUARTControl\obj\Debug\ProjectUARTControl.TemperatureScreen.resources
+C:\Users\Szabi\Documents\Vivado\ProjectUARTControl\ProjectUARTControl\obj\Debug\ProjectUARTControl.Properties.Resources.resources
+C:\Users\Szabi\Documents\Vivado\ProjectUARTControl\ProjectUARTControl\obj\Debug\ProjectUARTControl.csproj.GenerateResource.Cache
+C:\Users\Szabi\Documents\Vivado\ProjectUARTControl\ProjectUARTControl\obj\Debug\ProjectUARTControl.exe
+C:\Users\Szabi\Documents\Vivado\ProjectUARTControl\ProjectUARTControl\obj\Debug\ProjectUARTControl.pdb
